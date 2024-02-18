@@ -1,10 +1,10 @@
-﻿class Program
+﻿using ConsoleApp1;
+
+class Program
 {
     static void Main(string[] args)
     {
-        // 整数の入力
-        int a = int.Parse(Console.ReadLine());
-
-        Console.WriteLine(a);
+        var product = new ABC086A_Product();
+        product.Execlusion();
     }
 }
