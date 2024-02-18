@@ -7,7 +7,10 @@ class Program
         //var product = new ABC086A_Product();
         //product.Execlusion();
 
-        var product = new ABC081A_PlacingMarbles();
+        //var product = new ABC081A_PlacingMarbles();
+        //product.Execlusion();
+
+        var product = new ABC081B_ShiftOnly();
         product.Execlusion();
     }
 }
